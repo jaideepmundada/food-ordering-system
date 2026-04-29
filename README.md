@@ -7,11 +7,12 @@ A simple, beginner-friendly full-stack food ordering website.
 - **Backend**: Node.js, Express.js
 - **Database**: MySQL
 
+## Team Members 
+| Name               | Role               |
+| ------------------ | ------------------ |
+| Jaideep N. Mundada | Backend Developer  |
+| Om Kapure          | Frontend Developer |
 
-##Team Members
-   Name                   Roll
-Jaideep .N.Mundada   Backend Developer
-Om Kapure            Frontend Developer
 
 ## Features
 - **Home Page**: Fetches and displays a list of food items from the MySQL database.

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering System - Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Foodie</h1>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Menu</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Delicious Food, Delivered To You</h2>
+            <p>Choose from our diverse menu featuring a delectable array of dishes.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">Our Menu</h2>
+        <div id="food-list" class="food-grid">
+            <!-- Food items will be loaded here dynamically -->
+            <p class="loading">Loading menu items...</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Foodie Ordering System. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

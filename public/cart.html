@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Food Ordering System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Foodie</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="cart.html" class="active">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h2 class="section-title">Your Cart</h2>
+        
+        <div class="cart-container">
+            <div id="cart-items" class="cart-items">
+                <!-- Cart items will be loaded here dynamically -->
+            </div>
+            
+            <div class="cart-summary">
+                <h3>Order Summary</h3>
+                <div class="summary-row">
+                    <span>Total Items:</span>
+                    <span id="total-items">0</span>
+                </div>
+                <div class="summary-row total-row">
+                    <span>Total Amount:</span>
+                    <span>$<span id="total-price">0.00</span></span>
+                </div>
+                <a href="order.html" id="checkout-btn" class="btn btn-primary btn-block" style="display: none;">Proceed to Checkout</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Foodie Ordering System. All rights reserved.</p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>

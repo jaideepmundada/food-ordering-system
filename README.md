@@ -1,5 +1,5 @@
-# Food Ordering System
-## 🍔Project Overview:
+# 🍔 Food Ordering System
+## 📄 Project Overview :
 The Food Ordering System is a web application that allows users to browse food items, add them to a cart, and place orders online. It uses a frontend built with HTML, CSS, and JavaScript, and a backend using Node.js, Express.js, and MySQL for managing data. The system helps automate ordering, reduces errors, and improves customer convenience.
 
 
